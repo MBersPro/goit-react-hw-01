@@ -1,10 +1,23 @@
 import React from 'react'; // imr
+import data from '../data';
 import Profile from './profile/Profile';
+import Statistics from './statistics/Statistics';
+
 
 const App = () => { // slr
     return (
         <>
-            <Profile/>
+            <Profile
+                name={data.user.name}
+                tag={data.user.tag}
+                location={data.user.location}
+                avatar={data.user.avatar}
+                stats={data.user.stats}
+            />
+            <Statistics
+                title="Upload stats" stats={data.statisticalData}
+
+            />
         </>
     );
 }
