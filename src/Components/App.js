@@ -1,6 +1,11 @@
-const App = () => {
+import React from 'react'; // imr
+import Profile from './profile/Profile';
+
+const App = () => { // slr
     return (
-        <h2>some</h2>
+        <>
+            <Profile/>
+        </>
     );
 }
 
