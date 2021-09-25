@@ -1,7 +1,9 @@
 import React from 'react'; // imr
 import data from '../data';
+import FriendList from './friendList/FriendList';
 import Profile from './profile/Profile';
 import Statistics from './statistics/Statistics';
+import TransactionHistory from './transactionHistory/TransactionHistory';
 
 
 const App = () => { // slr
@@ -15,8 +17,14 @@ const App = () => { // slr
                 stats={data.user.stats}
             />
             <Statistics
-                title="Upload stats" stats={data.statisticalData}
-
+                title="Upload stats"
+                stats={data.statisticalData}
+            />
+            <FriendList
+                friends={data.friends}
+            />
+            <TransactionHistory
+                items={data.transactions}
             />
         </>
     );
