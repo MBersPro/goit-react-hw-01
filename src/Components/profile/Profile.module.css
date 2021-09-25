@@ -1,0 +1,40 @@
+.container{
+    background-color: #e8edf2;
+    padding: 80px;
+    margin-top: 50px;
+}
+.profile{
+    background-color: #fff;
+    border-radius: 8px;
+}
+.img{
+}
+
+.upcontainer{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.some{
+    color: #a2adb7;
+}
+
+.downcontainer{
+    display: flex;
+    background-color: #f3f6f9;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.li{
+
+}
+
+.topspan{
+    display: block;
+}
