@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import FriendListItem from './friendListItem/FriendListItem';
+import {ul} from './FriendList.module.css'
+
 const FriendList = (props) => (
-    <ul>
+    <ul className={ul}>
         {props.friends.map(item => 
             <FriendListItem
                 avatar={item.avatar}

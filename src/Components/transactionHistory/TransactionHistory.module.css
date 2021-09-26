@@ -1,0 +1,20 @@
+.table{
+    border: 1px gray solid;
+}
+
+.tr {
+    background-color: seagreen;
+    color: white;
+}
+.th{
+    width: 133px;
+    height: 40px;
+}
+
+.td{
+    text-align: center;
+}
+
+.tr2:nth-child(even){
+    background-color: grey;
+}

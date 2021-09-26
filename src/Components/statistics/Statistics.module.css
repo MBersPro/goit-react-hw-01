@@ -1,0 +1,40 @@
+.container{
+    background-color: #e8edf2;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.title{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 1px
+}
+
+.ul{
+    display: flex;
+    padding-left: 0;
+    margin-top: -20px;
+    border: darkgreen 1px solid;
+
+}
+
+.li{
+    flex-wrap: wrap;
+    background-color: seagreen;
+    width: 68px;
+    padding-left: 0;
+    border-top: 1px, solid, darkgreen;
+}
+
+.li:not(:last-child){
+    border-right: 1px solid darkgreen
+}
+
+.span{
+    display: block;
+    color: white;
+}

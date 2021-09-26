@@ -1,0 +1,33 @@
+.li{
+    display: flex;
+    border: black 1px solid;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.online{
+    background-color: green;
+    width: 20px;
+    display: block;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+.offline{
+    background-color: red;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+.img{
+    margin-right: 70px;
+}

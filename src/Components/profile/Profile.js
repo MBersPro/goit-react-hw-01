@@ -1,6 +1,6 @@
 import React from 'react'; //imr
 import PropTypes from 'prop-types'
-import {container, profile, img, upcontainer, name, some, downcontainer, li, topspan} from './Profile.module.css'
+import {container, profile, img, upcontainer, name, some, downcontainer, li, topspan, downspan} from './Profile.module.css'
 
 
 const Profile = (props) => {
@@ -14,10 +14,10 @@ const Profile = (props) => {
                     <p className={some}>{props.location}</p>
                 </div>
                 <ul className={downcontainer}>
-                    {Object.entries(props.stats).map((key, value) =>
-                        <li className={li}>
-                            <span className={topspan}>{key}</span>
-                            <span className={topspan}>{value}</span>
+                    {Object.entries(props.stats).map((key, id) =>
+                        <li className={li} key={id}>
+                            <span className={topspan}>{key[0]}</span>
+                            <span className={downspan}>{key[1]}</span>
                         </li>
                     )}
                 </ul>

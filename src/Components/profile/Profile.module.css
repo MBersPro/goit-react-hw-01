@@ -2,6 +2,7 @@
     background-color: #e8edf2;
     padding: 80px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .profile{
     background-color: #fff;
@@ -29,12 +30,23 @@
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+    border: grey solid 1px;
+}
+.li{
+    width: 80px;
+    text-align: center;
 }
 
-.li{
-
+.li:not(:last-child){
+    border-right: grey solid 1px;
+    
 }
 
 .topspan{
     display: block;
+    color: #a2adb7;
+}
+.downspan{
+    display: block;
+    font-weight: 600;
 }
